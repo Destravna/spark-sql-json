@@ -1,0 +1,27 @@
+{
+    "extractName" : "test-extract-1",
+    "model" : "listed",
+    "attributes" : {
+        "allAttributes" : "false",
+        "attributesList" : [
+            {
+                "tradeDirection" : {
+                    "alias" : "tradeDirection",
+                    "condition" : "upper"
+                }
+            }, 
+            {
+                "isDestroyed" : {
+                    "alias" : "isDestroyed",
+                    "condition" : ""
+                }
+            }
+            
+        ]
+    },
+    "dateFrom" : "2024-11-03",
+    "dateTo" : "2024-11-10",
+    "outputFormat" : "xml",
+    "outputPath" : "/home/dhruv/projects/sample-spark-job/output",
+    "deliveryFormat" : ""
+}

@@ -1,0 +1,7 @@
+.vscode/
+output/
+metastore_db/
+spark-warehouse/
+target/
+.metals/
+job-working.jar
